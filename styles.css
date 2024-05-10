@@ -368,6 +368,17 @@ li{
 	letter-spacing: 4px;
 }
 
+.icon{
+    /* transform: scale(-9.4); */
+    /* z-index: 9; */
+    transform: translateY(1px); 
+}
+.icon:hover{
+    transform: scale(-1.5);
+    z-index: 5;
+    transition: ease-in-out 0.8s
+}
+
 footer {
 	position: relative;
 	width: 100%;
